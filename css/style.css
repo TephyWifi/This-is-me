@@ -28,7 +28,6 @@ img {
     margin: 20px;
 }
 
-
 :root {
     --magnolia: #F8F0FFff;
     --light-coral: #ED7A83ff;
@@ -46,14 +45,12 @@ header {
     font-size: 35px;
     color: var(--melon);
     font-family: Arial, Helvetica, sans-serif;
-    /* border-bottom: solid; */
 }
 
 .hello {
     font-size: 20px;
     color: var(--mountbatten-pink);
     padding-top: 20px;
-
 }
 
 .myname {
@@ -73,7 +70,6 @@ header {
     color: var(--light-coral);
     transition: color .4s ease;
 }
-
 
 .sidenav {
     height: 100%;
@@ -99,9 +95,7 @@ header {
     transition: 0.3s;
     ;
     border-bottom: 1px solid rgb(137, 118, 124, 0.3);
-
 }
-
 
 .sidenav a:hover {
     color: var(--light-coral);
@@ -131,7 +125,6 @@ header {
     overflow-y: scroll;
     margin-right: -50px;
     padding-right: 50px;
-
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -177,7 +170,6 @@ article p {
     font-size: 18px;
     color: var(--magnolia);
     margin: 20px auto;
-
 }
 
 section :after {
@@ -273,6 +265,5 @@ footer {
 p span:not(:last-child)::after {
     content: " | ";
     font-size: 20px;
-    
-}
 
+}
