@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>This is me!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta name="author" content="Stephanie Reiso">
+    <meta name="keywords" content="html,css,portfolio">
+    <meta name="description" content="This is the start of my coding journey">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js"></script>
+    <style>
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <p class="hello">Hello. My name is</p>
+        <h1 class="myname">Stephanie Reiso</h1>
+        <span style="font-size:30px;cursor:pointer;"
+        onclick="openNav()">&#9776;</span>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width ="250px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </header>
+
+    <section>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn"
+                onclick="closeNav()">&times;</a>
+                <a href="#">First Project</a>
+                <a href="#">Second Project</a>
+                <a href="#">Third Project</a>
+                <a href="#">Home</a>
+            </div>
+
+
+        </nav>
+
+        <article>
+            <div class="scroll-container">
+            <h1>WHO AM I?</h1>
+            <p>I enjoy spending time with my family, creating lasting memories.</p>
+            <p>My hobbies include, but are not limited to, the following:</p>
+            <ul>
+                <li>Gaming</li>
+                <li>Traveling</li>
+                <li>Eating new foods</li>
+            </ul>
+            <br>
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+                
+                <div class="imgholder">
+                    <img src="img/2022-09-10_01-21-46-921_[Neneko] x [EC] Gameplay Vivid.png" alt="Picture of FFXIV scenery" width="960px">
+                </div>
+    
+            </div>
+           
+
+
+        </article>
+
+
+    </section>
+
+
+    <footer>
+       <div class="footer">
+        <p>Stephanie Reiso | <a href="mailto:tephyreiso@proton.me" class="email">tephyreiso@proton.me</a> | +47 41 09 13 89</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>Stephanie Reiso &copy;2024</p>
+        </div>
+       </div>
+    </footer>
+
+
+</body>
+
+
+</html>
