@@ -86,6 +86,7 @@ header {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidenav a {
@@ -161,7 +162,6 @@ article {
     color: var(--magnolia);
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-    /* border-left: solid; */
 }
 
 article h1 {
@@ -201,9 +201,6 @@ footer {
     height: auto;
     width: 100vw;
     padding: 40px 0 0 0;
-    /* font-size: 16px; */
-    /* padding: 50px;
-    text-align: center; */
 }
 
 .footer {
@@ -255,7 +252,6 @@ footer {
 .footer-copyright {
     background: var(--raisin-black);
     width: 100vw;
-    /* padding: 20px 20px 50px 20px; */
 }
 
 .footer-copyright p {
@@ -265,11 +261,18 @@ footer {
     justify-content: center;
 }
 
-.email {
+.contact {
     color: var(--mountbatten-pink);
 }
 
-.email:hover {
+.contact:hover {
     color: var(--light-coral);
     transition: color .4s ease;
 }
+
+p span:not(:last-child)::after {
+    content: " | ";
+    font-size: 20px;
+    
+}
+
