@@ -35,8 +35,8 @@ img {
     --melon: #EDB8AAff;
     --raisin-black: rgb(53, 42, 46);
     --mountbatten-pink: rgb(137, 118, 124);
-    --mountbatten-pink2: rgb(117, 100, 105); 
-  }
+    --mountbatten-pink2: rgb(117, 100, 105);
+}
 
 header {
     background-color: var(--raisin-black);
@@ -95,9 +95,10 @@ header {
     font-size: 25px;
     color: var(--melon);
     display: block;
-    transition: 0.3s;;
-    border-bottom: 1px solid rgb(137, 118, 124,0.3);
-    
+    transition: 0.3s;
+    ;
+    border-bottom: 1px solid rgb(137, 118, 124, 0.3);
+
 }
 
 
@@ -115,13 +116,21 @@ header {
 }
 
 @media screen and (max-height:450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
 .scroll-container {
     height: 85vh;
     overflow-y: scroll;
+    margin-right: -50px;
+    padding-right: 50px;
+
 }
 
 .scroll-container::-webkit-scrollbar {
@@ -264,4 +273,3 @@ footer {
     color: var(--light-coral);
     transition: color .4s ease;
 }
-
