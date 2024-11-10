@@ -64,6 +64,17 @@ header {
     color: var(--melon);
 }
 
+.span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.span:hover {
+    color: var(--light-coral);
+    transition: color .4s ease;
+}
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -114,7 +125,7 @@ header {
 }
 
 .scroll-container::-webkit-scrollbar {
-    width: 12px;
+    width: 5px;
 }
 
 .scroll-container::-webkit-scrollbar-track {
@@ -153,9 +164,10 @@ article h1 {
 }
 
 article p {
+    line-height: 28px;
     font-size: 18px;
     color: var(--magnolia);
-
+    margin: 20px auto;
 
 }
 
