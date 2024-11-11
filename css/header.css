@@ -1,0 +1,29 @@
+header {
+    background-color: var(--raisin-black);
+    width: 100vw;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: var(--melon);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hello {
+    font-size: 20px;
+    color: var(--mountbatten-pink);
+}
+
+.myname {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: var(--melon);
+    margin-top: -40px;
+}

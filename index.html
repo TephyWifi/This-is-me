@@ -9,48 +9,28 @@
     <meta name="keywords" content="html,css,portfolio">
     <meta name="description" content="Stephanie Reiso coding portfolio">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/article.css">
     <script type="module" src="js/script.js"></script>
-    <style>
-        @media (max-width: 600px) {
-
-            nav,
-            article,
-            footer {
-                width: 100%;
-                height: auto;
-                
-            }
-
-        }
-    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
 </head>
 
 <body>
     <header>
-        <div>
-            <span id="myButton" class="mybutton" onclick="openNav()">&#9776;</span>
-    
-            <script>
-                function openNav() {
-                    document.getElementById("mySidenav").style.width = "250px";
-                    var button = document.getElementById("myButton");
-                    button.classList.add('hidden') 
-                }
-                
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                    var button = document.getElementById("myButton");
-                    button.classList.remove ('hidden') 
-                }
-            </script>
-        </div>
+        
+        
         <p class="hello">Welcome. My name is</p>
+        <div>
+        <span id="myMenu" class="mymenu" onclick="openNav()">&#9776;</span>
+        <span id="myHome" class="myhome" onclick="goHome()">&#8962;</span>
+        <script src="js/script.js"></script>
+        </div>
         <h1 class="myname">Stephanie Reiso</h1>
         
        
@@ -63,7 +43,6 @@
                 <a href="#">First Project</a>
                 <a href="#">Second Project</a>
                 <a href="#">Third Project</a>
-                <a href="#">Home</a>
             </div>
         </nav>
         <article>
@@ -112,14 +91,10 @@
             <ul class="socials">
                 <li><a href="https://www.facebook.com/profile.php?id=664245647" target="_blank"
                         rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://x.com/tephyreiso" target="_blank" rel="noopener noreferrer"><i
-                            class="fa fa-twitter"></i></a></li>
                 <li><a href="https://github.com/TephyWifi" target="_blank" rel="noopener noreferrer"><i
                             class="fa fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/stephanie-michelle-j-reiso-36b84519/" target="_blank"
                         rel="noopener noreferrer"><i class="fa fa-linkedin-square"></i></a></li>
-                <li><a href="https://www.instagram.com/tephyreiso/" target="_blank" rel="noopener noreferrer"><i
-                            class="fa fa-instagram"></i></a></li>
             </ul>
             <div class="footer-copyright">
                 <p>Stephanie Reiso &copy;2024</p>
