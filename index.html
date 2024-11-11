@@ -18,7 +18,9 @@
             footer {
                 width: 100%;
                 height: auto;
+                
             }
+
         }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,18 +33,27 @@
 
 <body>
     <header>
+        <div>
+            <span id="myButton" class="mybutton" onclick="openNav()">&#9776;</span>
+    
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    var button = document.getElementById("myButton");
+                    button.classList.add('hidden') 
+                }
+                
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    var button = document.getElementById("myButton");
+                    button.classList.remove ('hidden') 
+                }
+            </script>
+        </div>
         <p class="hello">Welcome. My name is</p>
         <h1 class="myname">Stephanie Reiso</h1>
-        <span class="span" onclick="openNav()">&#9776;</span>
-
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
+        
+       
     </header>
 
     <section>
