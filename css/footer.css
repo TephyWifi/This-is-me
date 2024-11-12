@@ -54,11 +54,12 @@ footer {
 .socials a i {
     font-size: 1.1rem;
     width: 20px;
-    transition: color .4s ease;
+
 }
 
 .socials a:hover i {
     color: var(--light-coral);
+    transition: color .4s ease;
 }
 
 .footer-copyright {
@@ -71,6 +72,7 @@ footer {
     word-spacing: 2px;
     align-items: center;
     justify-content: center;
+    color: var(--mountbatten-pink);
 }
 
 .contact {
@@ -85,5 +87,6 @@ footer {
 p span:not(:last-child)::after {
     content: " | ";
     font-size: 20px;
+    color: var(--mountbatten-pink);
 
 }

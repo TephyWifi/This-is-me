@@ -13,9 +13,22 @@
     color: var(--raisin-black);
 }
 
-.myhome {
-    font-size: 45px;
+
+.dark-light {
+    font-size: 35px;
     cursor: pointer;
+    margin-top: -3.5px
+}
+
+.dark-light:hover {
+    color: var(--light-coral);
+    transition: color .4s ease;
+}
+
+.myhome {
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: -3.5px;
 }
 
 .myhome:hover {

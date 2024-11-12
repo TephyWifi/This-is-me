@@ -1,0 +1,67 @@
+.switchmode {  
+    .mymenu, .dark-light, .myhome {
+        color: var(--magnolia);
+    }
+
+    .hello {
+        color: var(--magnolia);
+    }
+    
+    .header-title {
+        color: var(--magnolia);
+    }
+
+    .sidenav {
+        background-color: rgb(248, 240, 255, 0.9);
+    }
+
+    .sidenav a {
+        color: var(--raisin-black);
+    }
+
+    .scroll-container::-webkit-scrollbar-track {
+        background: var(--magnolia)
+    }
+    
+    .scroll-container::-webkit-scrollbar-thumb {
+        background: var(--raisin-black);
+    }
+    
+    .scroll-container::-webkit-scrollbar-thumb:hover {
+        background: var(--melon);
+    }
+
+    article {
+        background-color: var(--magnolia);
+        color: var(--raisin-black);
+    }
+
+    article p {
+        color: black;
+    }
+
+    .footer p {
+        color: var(--magnolia);
+    }
+
+    .socials a {
+        color: var(--magnolia);
+    }
+
+    .footer-copyright p {
+        color: var(--magnolia);
+    }
+
+    .contact {
+        color: var(--magnolia);
+    }
+
+    p span:not(:last-child)::after {
+        color: var(--magnolia);
+    }
+
+
+
+
+
+}

@@ -10,6 +10,12 @@ function closeNav() {
     button.classList.remove ('hidden') 
 }
 
+// function switchMode() {
+//     document.getElementById("dark-light");
+//     let element = document.body;
+//     element.classList.toggle("switchmode");
+// }
+
 function goHome() {
-    window.location.href="../index.html"
+    document.location.href="/index.html";
 }

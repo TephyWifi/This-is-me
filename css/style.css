@@ -29,7 +29,7 @@ img {
 }
 
 :root {
-    --magnolia: #F8F0FFff;
+    --magnolia: rgb(248, 240, 255);
     --light-coral: #ED7A83ff;
     --melon: #EDB8AAff;
     --raisin-black: #352a2e;
