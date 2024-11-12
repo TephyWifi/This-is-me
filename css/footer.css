@@ -1,3 +1,14 @@
+/* Color scheme */
+:root {
+    --magnolia: rgb(248, 240, 255);
+    --light-coral: #ED7A83ff;
+    --melon: #EDB8AAff;
+    --raisin-black: #352a2e;
+    --mountbatten-pink: rgb(137, 118, 124);
+    --mountbatten-pink2: rgb(117, 100, 105);
+}
+
+/* Footer container, text content and effect */
 body>footer {
     padding: 0;
     margin: 0;
@@ -30,6 +41,23 @@ footer {
     color: var(--mountbatten-pink);
 }
 
+.contact {
+    color: var(--mountbatten-pink);
+}
+
+.contact:hover {
+    color: var(--light-coral);
+    transition: color .4s ease;
+}
+
+p span:not(:last-child)::after {
+    content: " | ";
+    font-size: 20px;
+    color: var(--mountbatten-pink);
+
+}
+
+/* Footer - social media icons and effects */
 .socials {
     list-style: none;
     display: flex;
@@ -46,7 +74,7 @@ footer {
 .socials a {
     text-decoration: none;
     color: var(--mountbatten-pink);
-    border: 1.1px solid var(--magnolia);
+    border: 1.1px solid var(--mountbatten-pink);
     padding: 5px;
     border-radius: 50%;
 }
@@ -54,7 +82,6 @@ footer {
 .socials a i {
     font-size: 1.1rem;
     width: 20px;
-
 }
 
 .socials a:hover i {
@@ -62,6 +89,7 @@ footer {
     transition: color .4s ease;
 }
 
+/* Footer copyright container and content */
 .footer-copyright {
     background: var(--raisin-black);
     width: 100vw;
@@ -73,20 +101,4 @@ footer {
     align-items: center;
     justify-content: center;
     color: var(--mountbatten-pink);
-}
-
-.contact {
-    color: var(--mountbatten-pink);
-}
-
-.contact:hover {
-    color: var(--light-coral);
-    transition: color .4s ease;
-}
-
-p span:not(:last-child)::after {
-    content: " | ";
-    font-size: 20px;
-    color: var(--mountbatten-pink);
-
 }

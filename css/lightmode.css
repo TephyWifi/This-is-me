@@ -1,14 +1,17 @@
-.switchmode {  
-    .mymenu, .dark-light, .myhome {
-        color: var(--magnolia);
-    }
+/* Color scheme */
+:root {
+    --magnolia: rgb(248, 240, 255);
+    --light-coral: #ED7A83ff;
+    --melon: #EDB8AAff;
+    --raisin-black: #352a2e;
+    --mountbatten-pink: rgb(137, 118, 124);
+    --mountbatten-pink2: rgb(117, 100, 105);
+}
 
-    .hello {
-        color: var(--magnolia);
-    }
-    
-    .header-title {
-        color: var(--magnolia);
+/* Effects of switching between dark/light mode */
+.switchmode {  
+    .dark-light {
+        color: var(--raisin-black);
     }
 
     .sidenav {
@@ -39,29 +42,4 @@
     article p {
         color: black;
     }
-
-    .footer p {
-        color: var(--magnolia);
-    }
-
-    .socials a {
-        color: var(--magnolia);
-    }
-
-    .footer-copyright p {
-        color: var(--magnolia);
-    }
-
-    .contact {
-        color: var(--magnolia);
-    }
-
-    p span:not(:last-child)::after {
-        color: var(--magnolia);
-    }
-
-
-
-
-
 }

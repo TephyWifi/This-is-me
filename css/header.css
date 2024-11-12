@@ -1,3 +1,14 @@
+/* Color scheme */
+:root {
+    --magnolia: rgb(248, 240, 255);
+    --light-coral: #ED7A83ff;
+    --melon: #EDB8AAff;
+    --raisin-black: #352a2e;
+    --mountbatten-pink: rgb(137, 118, 124);
+    --mountbatten-pink2: rgb(117, 100, 105);
+}
+
+/* Header containers */
 header {
     background-color: var(--raisin-black);
     width: 100vw;
@@ -11,9 +22,35 @@ header {
 header div {
     display: flex;
     justify-content: space-between;
-    
 }
 
+/* Icon Buttons and effects */
+.mymenu {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mymenu:hover {
+    color: var(--light-coral);
+    transition: color .4s ease;
+}
+
+.mymenu.hidden {
+    color: var(--raisin-black);
+}
+
+.myhome {
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: -3.5px;
+}
+
+.myhome:hover {
+    color: var(--light-coral);
+    transition: color .4s ease;
+}
+
+/* Header page titles */
 .hello {
     font-size: 20px;
     color: var(--mountbatten-pink);
@@ -22,7 +59,6 @@ header div {
 .hello-hidden {
     font-size: 20px;
     color: var(--raisin-black)
-
 }
 
 .header-title {

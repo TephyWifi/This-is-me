@@ -1,0 +1,34 @@
+    
+    /* Additional style elements for lightmode */
+    
+    .mymenu, .dark-light, .myhome {
+        color: var(--magnolia);
+    }
+
+    .hello {
+        color: var(--magnolia);
+    }
+    
+    .header-title {
+        color: var(--magnolia);
+    }
+
+    .footer p {
+        color: var(--magnolia);
+    }
+
+    .socials a {
+        color: var(--magnolia);
+    }
+
+    .footer-copyright p {
+        color: var(--magnolia);
+    }
+
+    .contact {
+        color: var(--magnolia);
+    }
+
+    p span:not(:last-child)::after {
+        color: var(--magnolia);
+    }

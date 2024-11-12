@@ -1,8 +1,19 @@
+/* Color scheme */
+:root {
+    --magnolia: rgb(248, 240, 255);
+    --light-coral: #ED7A83ff;
+    --melon: #EDB8AAff;
+    --raisin-black: #352a2e;
+    --mountbatten-pink: rgb(137, 118, 124);
+    --mountbatten-pink2: rgb(117, 100, 105);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
+/* Hide browser scrollbar, keeping functionality */
 body::-webkit-scrollbar {
     display: none;
 }
@@ -12,12 +23,13 @@ body.hidescrollbar {
     scrollbar-width: none;
 }
 
+/* Image container and styling */
 .imgholder {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 img {
@@ -28,16 +40,8 @@ img {
     margin: 20px;
 }
 
-:root {
-    --magnolia: rgb(248, 240, 255);
-    --light-coral: #ED7A83ff;
-    --melon: #EDB8AAff;
-    --raisin-black: #352a2e;
-    --mountbatten-pink: rgb(137, 118, 124);
-    --mountbatten-pink2: rgb(117, 100, 105);
-}
-
-@media screen and (max-height:450px) {
+/* Responsive design? */
+@media only screen and (max-height:450px) {
     .sidenav {
         padding-top: 15px;
     }
@@ -45,15 +49,13 @@ img {
     .sidenav a {
         font-size: 18px;
     }
-}
+}   
 
 @media (max-width: 600px) {
-
     nav,
     article,
     footer {
         width: 100%;
         height: auto;
-
     }
 }

@@ -1,3 +1,14 @@
+/* Color scheme */
+:root {
+    --magnolia: #f8f0ff;
+    --light-coral: #ED7A83ff;
+    --melon: #EDB8AAff;
+    --raisin-black: #352a2e;
+    --mountbatten-pink: #89767c;
+    --mountbatten-pink2: #756469;
+}
+
+/* Built-in article scrollbar */
 .scroll-container {
     height: 85vh;
     overflow-y: scroll;
@@ -17,16 +28,12 @@
     background: var(--raisin-black);
 }
 
-.scroll-container::-webkit-scrollbar-thumb:hover {
-    background: var(--melon);
-}
-
 .scroll-container::-webkit-scrollbar-button {
     display: none;
 }
 
+/* Artcle box and contents */
 article {
-    float: left;
     padding: 70px;
     width: 100vw;
     background-color: var(--mountbatten-pink);
@@ -48,12 +55,29 @@ article p {
     font-size: clamp(18px, 1.2vw, 50px);
     color: var(--magnolia);
     margin: 20px auto;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 section :after {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Switch button article between dark and light mode */
+.dark-light-container {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+    margin-top: 0px
+}
+.dark-light {
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--magnolia);
+    margin-right: -10px;
+}
+
+.dark-light:hover {
+    color: var(--light-coral);
+    transition: color .4s ease;
 }
