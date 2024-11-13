@@ -25,5 +25,5 @@ function switchMode() {
 
 // Home icon function
 function goHome() {
-    document.location.href="/index.html";
+    document.location.href="../index.html";
 }
