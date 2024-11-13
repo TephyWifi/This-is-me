@@ -33,6 +33,7 @@
     display: block;
     transition: 0.3s;
     border-bottom: 1px solid rgb(137, 118, 124, 0.3);
+    
 }
 
 .sidenav a:hover, .offcanvas a:focus {
