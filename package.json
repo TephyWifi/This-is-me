@@ -1,0 +1,19 @@
+{
+  "name": "this-is-me",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TephyWifi/This-is-me.git"
+  },
+  "author": "Stephanie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TephyWifi/This-is-me/issues"
+  },
+  "homepage": "https://github.com/TephyWifi/This-is-me#readme"
+}
