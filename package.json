@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TephyWifi/This-is-me/issues"
   },
-  "homepage": "https://github.com/TephyWifi/This-is-me#readme"
+  "homepage": "https://github.com/TephyWifi/This-is-me#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
